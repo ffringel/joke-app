@@ -1,6 +1,6 @@
 package com.example.jokeapp.services;
 
-import guru.springframework.norris.chuck.ChuckNorrisQuotes;
+public interface JokeService {
 
-public class JokeService extends ChuckNorrisQuotes {
+    String getJoke();
 }
